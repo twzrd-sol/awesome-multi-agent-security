@@ -77,6 +77,8 @@ For a comparative set of slides that go through each of these approaches, see [h
 
 ## Trust, Reputation, and Norm Based Security
 
+- **TWZRD Agent Intel** — On-chain trust scoring and identity verification for AI agents on Solana. Uses the Solana ledger as an immutable reputation record. Free MCP tools (`score_agent`, `preflight_check`) return trust scores before task delegation; `get_trust_receipt` (paid, x402 micropayment) issues a cryptographic receipt. Deployed live at [intel.twzrd.xyz](https://intel.twzrd.xyz). Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 - **A Survey of Trust and Reputation Systems for Multi-Agent Environments**  
   *Ramon Sabater and Carles Sierra (2005)*  
   This seminal survey reviews various trust and reputation mechanisms developed for multi-agent systems, discussing their design, implementation challenges, and applications in dynamic and decentralized settings.[paper](https://crad.ict.ac.cn/en/article/id/371)
